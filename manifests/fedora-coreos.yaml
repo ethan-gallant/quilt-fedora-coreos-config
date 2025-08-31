@@ -16,7 +16,9 @@ variables:
   # doing a base compose
   deriving: false
 
-include: fedora-coreos-base.yaml
+include: 
+  - fedora-coreos-base.yaml
+  - quilt-kubernetes.yaml
 conditional-include:
   - if: releasever >= 41
     include: selinux-workaround.yaml

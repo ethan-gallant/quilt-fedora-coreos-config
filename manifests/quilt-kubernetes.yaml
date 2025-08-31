@@ -1,0 +1,14 @@
+# Kubernetes 1.33 installation manifest for Fedora CoreOS
+# This manifest configures the official Kubernetes repository and installs
+# Kubernetes 1.33 components by default
+
+repos:
+  - kubernetes
+  - quilt
+
+packages:
+  - kubelet-1.33.4
+  - kubectl-1.33.4
+  - kube-apiserver-1.33.4
+  - etcd-3.6.4
+  - cri-tools

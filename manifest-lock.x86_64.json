@@ -294,6 +294,12 @@
         "sourcerpm": "conmon"
       }
     },
+    "conntrack-tools": {
+      "evra": "1.4.7-9.fc42.x86_64",
+      "metadata": {
+        "sourcerpm": "conntrack-tools"
+      }
+    },
     "console-login-helper-messages": {
       "evra": "0.21.3-10.fc42.noarch",
       "metadata": {
@@ -328,6 +334,12 @@
       "evra": "2.0.6-1.fc42.x86_64",
       "metadata": {
         "sourcerpm": "containerd"
+      }
+    },
+    "containernetworking-plugins": {
+      "evra": "1.7.1-1.fc42.x86_64",
+      "metadata": {
+        "sourcerpm": "containernetworking-plugins"
       }
     },
     "containers-common": {
@@ -376,6 +388,12 @@
       "evra": "2.9.11-7.fc42.x86_64",
       "metadata": {
         "sourcerpm": "cracklib"
+      }
+    },
+    "cri-tools": {
+      "evra": "1.33.0-150500.1.1.x86_64",
+      "metadata": {
+        "sourcerpm": "cri-tools"
       }
     },
     "criu": {
@@ -1134,6 +1152,18 @@
         "sourcerpm": "krb5"
       }
     },
+    "kubectl": {
+      "evra": "1.33.4-150500.1.1.x86_64",
+      "metadata": {
+        "sourcerpm": "kubectl"
+      }
+    },
+    "kubelet": {
+      "evra": "1.33.4-150500.1.1.x86_64",
+      "metadata": {
+        "sourcerpm": "kubelet"
+      }
+    },
     "less": {
       "evra": "679-1.fc42.x86_64",
       "metadata": {
@@ -1438,6 +1468,24 @@
       "evra": "1.0.9-8.fc42.x86_64",
       "metadata": {
         "sourcerpm": "libnetfilter_conntrack"
+      }
+    },
+    "libnetfilter_cthelper": {
+      "evra": "1.0.0-30.fc42.x86_64",
+      "metadata": {
+        "sourcerpm": "libnetfilter_cthelper"
+      }
+    },
+    "libnetfilter_cttimeout": {
+      "evra": "1.0.0-27.fc42.x86_64",
+      "metadata": {
+        "sourcerpm": "libnetfilter_cttimeout"
+      }
+    },
+    "libnetfilter_queue": {
+      "evra": "1.0.5-11.fc42.x86_64",
+      "metadata": {
+        "sourcerpm": "libnetfilter_queue"
       }
     },
     "libnfnetlink": {
@@ -2563,13 +2611,13 @@
       }
     },
     "vim-data": {
-      "evra": "2:9.1.1623-1.fc42.noarch",
+      "evra": "2:9.1.1706-1.fc42.noarch",
       "metadata": {
         "sourcerpm": "vim"
       }
     },
     "vim-minimal": {
-      "evra": "2:9.1.1623-1.fc42.x86_64",
+      "evra": "2:9.1.1706-1.fc42.x86_64",
       "metadata": {
         "sourcerpm": "vim"
       }

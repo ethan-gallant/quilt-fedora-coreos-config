@@ -1,0 +1,7 @@
+[quilt]
+name=Quilt Kubernetes v1.33
+baseurl=https://repo.ethangallant.net/v1.33/
+enabled=1
+gpgcheck=1
+gpgkey=https://repo.ethangallant.net/RPM-GPG-KEY
+repo_gpgcheck=1
